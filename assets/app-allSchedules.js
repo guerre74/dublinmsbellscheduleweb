@@ -83,7 +83,10 @@
     }
     var schedules = bsData.schedules;
 
-    var scheduleKeys = Object.keys(schedules).sort(),
+    var scheduleKeys = Object.keys(schedules).sort().filter((key) => {
+        if (schedules[key].hidden) return false;
+        return true;
+      }),
       date = new Date(),
       newTable = "";
     // periodIndex = getPeriodIndex(date, schedule);
