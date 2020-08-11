@@ -3,7 +3,7 @@
     schoolName: "Dublin High School",
     appName: "DHS Bell Schedule App",
     schoolColour: "#14415B",
-    schoolIdentifier: "dublinHS",
+    schoolIdentifier: "dublinMS",
   };
   // Your web app's Firebase configuration
   var firebaseConfig = {

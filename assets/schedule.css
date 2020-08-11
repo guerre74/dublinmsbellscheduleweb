@@ -4,7 +4,7 @@ body {
 }
 #scheduleTable, #schedulesTable {
   padding-left:2.5vw;
-  padding-right:2.5vw;  
+  padding-right:2.5vw;
   margin:0;
 }
 h1 {
@@ -15,13 +15,13 @@ h1 {
   margin:0;
 }
 h1 span {
-  background-color: #14415B;
+  background-color: #6E0E26;
   color: white;
 }
 h1 a {
   font-size:0.75em;
   text-decoration: none;
-  color: #14415B
+  color: #6E0E26;
 }
 #scheduleTable li, #schedulesTable li, .scheduleTable li {
   list-style: none;
@@ -49,7 +49,7 @@ h1 a {
 .scheduleTable li.title {
   padding:0.25em !important;
   font-size:0.85em !important;
-  background-color: #14415B;
+  background-color: #6E0E26;
   color: white;
   text-align:left;
 }
